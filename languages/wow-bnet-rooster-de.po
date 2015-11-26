@@ -1,0 +1,250 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Rocket\n"
+"POT-Creation-Date: 2015-11-26 15:58+0100\n"
+"PO-Revision-Date: 2015-11-26 16:00+0100\n"
+"Language-Team: Stefan Herndler <s.herndler@methis.at>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: rocket.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2;WPT_trans\n"
+"Last-Translator: \n"
+"Language: de\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: php/classes/Ajax.php:169
+msgid "Missing ajax task."
+msgstr ""
+
+#: php/classes/Ajax.php:175
+msgid "The given task does not exist."
+msgstr ""
+
+#: php/classes/Ajax.php:179
+msgid "Request method is not allowed."
+msgstr ""
+
+#: php/classes/Ajax.php:183
+msgid "Authentication error."
+msgstr ""
+
+#: php/classes/Ajax.php:190
+msgid "Internal error."
+msgstr ""
+
+#: php/classes/Ajax.php:203
+msgid "Missing license key."
+msgstr ""
+
+#: php/classes/Groot.php:116
+msgid "Timeout reached."
+msgstr ""
+
+#: php/functions/misc.php:58 templates/account-area/CreditInformation.php:31
+#: templates/account-area/CreditInformation.php:47
+#: templates/account-area/CreditInformation.php:59
+#: templates/account-area/CreditInformation.php:71
+#: templates/account-area/CreditInformation.php:85
+#: templates/account-area/Licenses.php:28
+#: templates/account-area/Licenses.php:29
+msgid "unknown"
+msgstr ""
+
+#: templates/LoginForm.php:18 templates/modals/GUIDsOfLicense.php:15
+#: templates/modals/GUIDsOfLicense.php:43
+msgid "Close"
+msgstr ""
+
+#: templates/LoginForm.php:41
+msgid "Email address"
+msgstr ""
+
+#: templates/LoginForm.php:45
+msgid "Password"
+msgstr ""
+
+#: templates/LoginForm.php:49
+msgid "Login"
+msgstr ""
+
+#: templates/Logout.php:15
+msgid "You were successfully logged out."
+msgstr ""
+
+#: templates/account-area/CreditInformation.php:18
+msgid "Your Credit Information"
+msgstr ""
+
+#: templates/account-area/CreditInformation.php:22
+msgid "Label"
+msgstr ""
+
+#: templates/account-area/CreditInformation.php:23
+msgid "Credits"
+msgstr ""
+
+#: templates/account-area/CreditInformation.php:28
+msgid "Welcome package received from METHIS"
+msgstr ""
+
+#: templates/account-area/CreditInformation.php:33
+#: templates/account-area/CreditInformation.php:87
+msgid "unlimited"
+msgstr ""
+
+#: templates/account-area/CreditInformation.php:44
+msgid "Credits purchased through the online shop"
+msgstr ""
+
+#: templates/account-area/CreditInformation.php:56
+msgid "Credits encashed by /data.mill coupon codes"
+msgstr ""
+
+#: templates/account-area/CreditInformation.php:68
+msgid "Credits already used by your licenses"
+msgstr ""
+
+#: templates/account-area/CreditInformation.php:82
+msgid "Total amount of credits available"
+msgstr ""
+
+#: templates/account-area/Header.php:15
+#, php-format
+msgid "Hello, %s."
+msgstr ""
+
+#: templates/account-area/Header.php:20
+msgid "Logout"
+msgstr ""
+
+#: templates/account-area/Licenses.php:15
+msgid "Your Licenses"
+msgstr ""
+
+#: templates/account-area/Licenses.php:19
+msgid "License Key"
+msgstr ""
+
+#: templates/account-area/Licenses.php:20
+msgid "Connected GUIDs"
+msgstr ""
+
+#: templates/account-area/Licenses.php:21
+msgid "Is Activated"
+msgstr ""
+
+#: templates/account-area/Licenses.php:22
+msgid "Actions"
+msgstr ""
+
+#: templates/account-area/Licenses.php:30
+msgid "deactivated"
+msgstr ""
+
+#: templates/account-area/Licenses.php:30
+msgid "activated"
+msgstr ""
+
+#: templates/account-area/Licenses.php:33
+msgid "Open"
+msgstr ""
+
+#: templates/modals/GUIDsOfLicense.php:16
+msgid "Detail License Information"
+msgstr ""
+
+#: templates/modals/GUIDsOfLicense.php:25
+msgid "Information"
+msgstr ""
+
+#: templates/modals/GUIDsOfLicense.php:28
+msgid "GUIDs"
+msgstr ""
+
+msgid "Warrior"
+msgstr "Krieger"
+
+msgid "Hunter"
+msgstr "Jäger"
+
+msgid "Rogue"
+msgstr "Schurke"
+
+msgid "Priest"
+msgstr "Priester"
+
+msgid "Deathknight"
+msgstr "Todesritter"
+
+msgid "Shaman"
+msgstr "Schamane"
+
+msgid "Mage"
+msgstr "Magier"
+
+msgid "Warlock"
+msgstr "Hexenmeister"
+
+msgid "Monk"
+msgstr "Mönch"
+
+msgid "Druid"
+msgstr "Druide"
+
+msgid "Unknown class"
+msgstr "Unbekannte Klasse"
+
+msgid "Human"
+msgstr "Mensch"
+
+msgid "Orc"
+msgstr "Ork"
+
+msgid "Dwarf"
+msgstr "Zwerg"
+
+msgid "Nightelf"
+msgstr "Nachtelf"
+
+msgid "Undead"
+msgstr "Untoter"
+
+msgid "Tauren"
+msgstr "Tauren"
+
+msgid "Gnome"
+msgstr "Gnom"
+
+msgid "Troll"
+msgstr "Troll"
+
+msgid "Goblin"
+msgstr "Goblin"
+
+msgid "Bloodelf"
+msgstr "Blutelf"
+
+msgid "Draenei"
+msgstr "Draenei"
+
+msgid "Pandaren"
+msgstr "Pandaren"
+
+msgid "Unknown race"
+msgstr "Unbekannte Rasse"
+
+
+msgid "TANK"
+msgstr "Tank"
+
+msgid "HEALING"
+msgstr "Heilung"
+
+msgid "DPS"
+msgstr "Schaden"
