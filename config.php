@@ -66,3 +66,7 @@ define('WBR_CONFIG_IGNORE_RANKS', "2,6,7");
  * Define the render path of the static images for characters 
  */
 define('WBR_CONFIG_BATTLE_NET_RENDER_PATH', "http://render-api-eu.worldofwarcraft.com/static-render/eu/");
+
+
+define('WBR_CONFIG_GROOT_TIMEOUT_SEC', 15);
+define('WBR_CONFIG_REQUEST_SERVER', 'https://eu.api.battle.net/');

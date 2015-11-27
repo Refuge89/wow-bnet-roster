@@ -13,13 +13,22 @@ img.rooster-thumbnail {
     margin-right: 4px;
     position: relative;
     top: 4px;
+    width: 64px;
+    height: 64px;
 }
 
 div.wbr_character {
-	clear: both;
-	margin-bottom: 12pt;
+    clear: both;
+    margin-bottom: 12pt;
 }
 
 div.wbr_rank {
-	margin-bottom: 12pt;
+    margin-bottom: 12pt;
+}
+
+img.role-icon {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    top: -2px;
 }

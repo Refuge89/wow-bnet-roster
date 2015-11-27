@@ -176,8 +176,9 @@ class WBR_ShortCodes {
 	 * @return string
 	 */
 	protected function GetCompleteRooster(/** @noinspection PhpUnusedParameterInspection */array $p_arr_Parameters = []) {
-		$json = WBR_Wow_Bnet_Rooster::queryBattleNet();
-		$rooster = json_decode($json);
+		//$json = WBR_Wow_Bnet_Rooster::queryBattleNet();
+		$rooster = WBR_Wow_Bnet_Rooster::queryRooster();
+		//$rooster = json_decode($json);
 		$ignore_ranks = explode(',', WBR_CONFIG_IGNORE_RANKS);
 		
 		// error codes from WBR_Wow_Bnet_Rooster::queryBattleNet() are not json responses, so we can check if everything is workout out smoothly

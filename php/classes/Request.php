@@ -13,7 +13,7 @@
  * @since 1.0.0
  * @class WPT_Request
  */
-class WPT_Request {
+class WBR_Request {
 
 	/**
 	 * Stores the response of the remote server as plain text.
@@ -91,7 +91,7 @@ class WPT_Request {
 		// initialize the connection to the remote server
 		$l_obj_Curl = curl_init();
 		// set the target fully qualified url including the relative path of the request
-		curl_setopt($l_obj_Curl, CURLOPT_URL, rtrim(WPT_CONFIG_REQUEST_SERVER , '/') . '/' . trim($p_str_RelativePath, '/'));
+		curl_setopt($l_obj_Curl, CURLOPT_URL, rtrim(WBR_CONFIG_REQUEST_SERVER , '/') . '/' . trim($p_str_RelativePath, '/'));
 		// set the request method of the request
 		curl_setopt($l_obj_Curl, CURLOPT_CUSTOMREQUEST, strtoupper(trim($p_str_RequestMethod)));
 		// define the number of parameter being sent
@@ -101,8 +101,8 @@ class WPT_Request {
 		// disable ssl verification
 		curl_setopt($l_obj_Curl, CURLOPT_SSL_VERIFYPEER, false);
 		// set a connection timeout
-		curl_setopt($l_obj_Curl, CURLOPT_CONNECTTIMEOUT, intval(WPT_CONFIG_GROOT_TIMEOUT_SEC));
-		curl_setopt($l_obj_Curl, CURLOPT_TIMEOUT, intval(WPT_CONFIG_GROOT_TIMEOUT_SEC));
+		curl_setopt($l_obj_Curl, CURLOPT_CONNECTTIMEOUT, intval(WBR_CONFIG_GROOT_TIMEOUT_SEC));
+		curl_setopt($l_obj_Curl, CURLOPT_TIMEOUT, intval(WBR_CONFIG_GROOT_TIMEOUT_SEC));
 		// yes we want to receive the response :-)
 		curl_setopt($l_obj_Curl, CURLOPT_RETURNTRANSFER, true);
 		// execute the request and read the response
