@@ -1,0 +1,129 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wow bnet rooster\n"
+"POT-Creation-Date: 2015-11-26 21:38+0100\n"
+"PO-Revision-Date: 2015-11-26 21:38+0100\n"
+"Last-Translator: Stefan Herndler <s.herndler@methis.at>\n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: WBR_trans\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: php/functions/misc.php:40
+msgid "Warrior"
+msgstr ""
+
+#: php/functions/misc.php:41
+msgid "Paladin"
+msgstr ""
+
+#: php/functions/misc.php:42
+msgid "Hunter"
+msgstr ""
+
+#: php/functions/misc.php:43
+msgid "Rogue"
+msgstr ""
+
+#: php/functions/misc.php:44
+msgid "Priest"
+msgstr ""
+
+#: php/functions/misc.php:45
+msgid "Deathknight"
+msgstr ""
+
+#: php/functions/misc.php:46
+msgid "Shaman"
+msgstr ""
+
+#: php/functions/misc.php:47
+msgid "Mage"
+msgstr ""
+
+#: php/functions/misc.php:48
+msgid "Warlock"
+msgstr ""
+
+#: php/functions/misc.php:49
+msgid "Monk"
+msgstr ""
+
+#: php/functions/misc.php:50
+msgid "Druid"
+msgstr ""
+
+#: php/functions/misc.php:51
+msgid "Unknown class"
+msgstr ""
+
+#: php/functions/misc.php:57
+msgid "Human"
+msgstr ""
+
+#: php/functions/misc.php:58
+msgid "Orc"
+msgstr ""
+
+#: php/functions/misc.php:59
+msgid "Dwarf"
+msgstr ""
+
+#: php/functions/misc.php:60
+msgid "Nightelf"
+msgstr ""
+
+#: php/functions/misc.php:61
+msgid "Undead"
+msgstr ""
+
+#: php/functions/misc.php:62
+msgid "Tauren"
+msgstr ""
+
+#: php/functions/misc.php:63
+msgid "Gnome"
+msgstr ""
+
+#: php/functions/misc.php:64
+msgid "Troll"
+msgstr ""
+
+#: php/functions/misc.php:65
+msgid "Goblin"
+msgstr ""
+
+#: php/functions/misc.php:66
+msgid "Bloodelf"
+msgstr ""
+
+#: php/functions/misc.php:67 php/functions/misc.php:70
+msgid "Draenei"
+msgstr ""
+
+#: php/functions/misc.php:71
+msgid "Unknown race"
+msgstr ""
+
+#: php/functions/misc.php:95
+msgid "HEALING"
+msgstr ""
+
+#: php/functions/misc.php:96
+msgid "TANK"
+msgstr ""
+
+#: php/functions/misc.php:97
+msgid "DPS"
+msgstr ""
+
+#: php/functions/misc.php:99
+msgid "Unknown role"
+msgstr ""
